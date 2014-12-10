@@ -1,38 +1,283 @@
 body {
-	background-image: url("images/goodysbag_1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-color: #ffcebe;
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 50%;
-	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 }
 
-h2 {
-	color: #ff7175;
-	font-size: 3em;
-	line-height: 1.2em;
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4em;
 	font-weight: 700;
-	text-transform: lowercase;
+	border-bottom: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #25323f;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	border-bottom: .1em;
+	border-bottom-style: solid;
+	display: inline-block;
+	color: #25323f;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+h4 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.75em;
+	font-weight: 700;
+	line-height: 1em;
+}
+
+h5 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+	line-height: 1em;
 }
 
 p {
-	color: #594a41;
+	font-family: 'Ovo', serif;
+	font-size: 1.25em;
+	line-height: 1.25em;
+	color: #25323f;
+}
+
+#logo {
+	width: 100%;
+	height: 75%;
+	position: center;
+	text-align: center;
+	vertical-align: center;
+	margin: 13% auto 22% auto;
+}
+
+#logo h4 {
+	color: white;
+}
+
+.fa-hand-o-down {
 	font-size: 2em;
-	font-family: 'Josefin Slab', serif;
-	font-weight: 600;
+	color: #ef4e45;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+nav {
+	background: #25323f;
+	width: auto;
+	margin: 1% 1% 2% 1%;
+	text-align: center;
+}
+
+nav ul {
+    list-style: none;               
+    display: inline-block;     
+    vertical-align: top;       
 }
 
 
-hr { 
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 0;
-    border-style: solid;
-    border-width: .2em;
-    border-color: #ffe470;
-    width: 50%;
+li {
+	display: inline;	
+	text-align: center;
+	padding-right: 3em;
+}
+
+a {
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1em;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+
+#location {
+	text-align: center; 
+	width: auto;
+	height: auto;
+}
+
+#location-info {
+	display: block;
+	float: left;
+	width: 46%;
+	padding: 1em;
+	margin: 7% 1% 1% 1%;
+}
+
+#map-canvas {
+	float: left;
+    width: 46%;
+    height: 25em;
+    background-color: #CCC;
+	margin: 1%;
+}
+
+#location h2 {
+	color: #25323f;
+}
+
+#location h3 {
+	padding: 1em 0 .5em 0;
+	color: #ef4e45;
+}
+
+
+#menu {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+#drinks {
+	display: block;
+	background-color: #b1bfce;
+	float:left;
+	width: 44%;
+	padding: 2%;
+	margin: 1% 1% 1% 1%
+}
+
+#drinks h3 {
+	color: #738ba4;
+	padding-top: 2em;
+}
+
+#food h3 {
+	color: #a7413f;
+	padding-top: 2em;
+}
+
+#drinks h4 {
+	padding-top: .5em;
+}
+
+#food h4 {
+	padding-top: .5em;
+}
+
+#food {
+	display: block;
+	background-color: #ef4e45;
+	float:left;
+	width: 44%;
+	padding: 2%;
+	margin: 1% 1% 1% 1%
+}
+
+
+
+.social {
+	display: block;
+	float: left;
+	padding: 1em;
+	margin: 1em;
+	height: auto;
+	text-align: center; 
+}
+
+
+img, i, h3, h4, h5, .social {
+	display: block;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+
+#social_feed {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.social h3, h4 {
+	color: white;
+}
+
+.social h5 {
+	color: #25323f;
+}
+
+.social.twitter {
+	display: block;
+	background-color: #b1bfce;
+	width: 19%;
+	padding: 2%;
+	margin: 1%;
+}
+
+.social.instagram {
+	display: block;
+	background-color: #ef4e45;
+	width: 19%;
+	padding: 2%;
+	margin: 1%;
+}
+
+
+.social.instagram img {
+	margin: auto;
+	width: 75%;
+}
+
+
+.fa-instagram {
+	font-size: 1.5em;
+	color: #a7413f;
+}
+
+.fa-twitter {
+	font-size: 1.5em;
+	color: #738ba4;
+}
+
+#about {
+	float: none;
+	padding: 2em;
+	margin: 2em;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  *zoom: 1;
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(images/laventanita_still.jpg) no-repeat;
+background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+html { background: url(images/laventanita_still.jpg) #000 no-repeat center center fixed; }
+#bgvid { display: none; }
 }
