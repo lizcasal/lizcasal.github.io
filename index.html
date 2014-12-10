@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>La Ventanita</title>
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic,700italic|Ovo' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+
+	<!-- Google map Javascript -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+  var myLatlng = new google.maps.LatLng(40.703074, -73.987646);
+  var mapOptions = {
+    zoom: 18,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'La Ventanita'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+    <!-- Google map Javascript -->
+
+</head>
+
+<div id="logo">
+<img id="header-logo" src="images/laventanita_logo_color.png" alt="La Ventanita word mark">
+<h4>A Cuban Caf&eacute; on wheels. A tu orden.</h4>
+<a href="#location"><i class="fa fa-hand-o-down"></i></a>
+</div>
+
+<nav class="clearfix">
+	<ul>
+		<li><a href="#location">Location</a></li>
+		<li><a href="#menu">Menu</a></li>
+		<li><a href="#social-feed">Social</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+</nav>
+
+<video muted autoplay loop poster="images/laventanita_still.jpg" id="bgvid">
+<source src="images/laventanita.mp4" type="video/mp4">
+</video>
+
+<body>
+
+<div id="location" class="clearfix">
+	<div id="location-info">
+		<h2>DUMBO, Brooklyn</h2>
+			<h3>At Water and Pearl</h3>
+			<h4>8 am to 6 pm</h4>
+	</div>
+
+		<div id="map-canvas"></div>
+
+</div>
+
+
+
+
+	<div id="menu" class="clearfix">
+
+	<div id="drinks" class="clearfix">
+		<h2>Bebidas</h2>
+			<h3>Caf&eacute;</h3>
+				<h4>Cafecito</h4> 
+					<p>shot of espresso with espumita</p>		
+					<p>$1.00</p>
+				<h4>Colada</h4>
+					<p>five shots of espresso to share</p>
+					<p>$4.00</p>
+				<h4>Cortadito</h4>
+					<p>espresso with evaporated or steamed milk</p>
+					<p>$1.50</p>
+				<h4>Caf&eacute; con Leche</h4>
+					<p>latte</p>
+					<p>$2.50</p>
+			<h3>Batidos</h3>
+				<h4>Malteada</h4>
+					<p>malted milkshake</p>
+					<p>$3.00</p>
+				<h4>Batido de Fruta Bomba</h4>
+					<p>papaya shake</p>
+					<p>$4.00</p>
+				<h4>Batido de Guan&aacute;bana</h4>
+					<p>soursop shake</p>
+					<p>$4.00</p>
+				<h4>Batido de Trigo</h4>
+					<p>puffed wheat shake</p>
+					<p>$4.00</p>
+		</div>
+
+		<div id="food" class="clearfix">
+		<h2>Comida</h2>
+			<h3>Empanadas</h3>
+				<h4>Pollo, Carne, Guayaba y Queso</h4>
+					<p>deep fried dough filled with chicken, meat, or guava and cheese</p>
+					<p>$1.50 each</p>
+			<h3>Croquetas</h3>
+				<h4>Jamon, Pollo</h4>
+					<p>ham or chicken croquettes</p>
+					<p>$1.00 each</p>
+			<h3>Pastelitos</h3>
+				<h4>Guayaba, Queso, Carne</h4>
+					<p>puff pastry filled with guava, cream cheese, or meat</p>
+					<p>$1.00 each</p>
+			<h3>Extras</h3>
+				<h4>Tostada con Matequilla</h4>
+					<p>Cuban toast with butter</p>
+					<p>$2.00</p>
+				<h4>Platanos</h4>
+					<p>Green (tostones) or sweet (maduros)</p>
+					<p>$3.00</p>
+<!--
+				<h4>Arroz y Frijoles</h4>
+					<p>White rice and black beans</p>
+					<p>$3.00</p>
+					-->
+			<h3>Sandwiches</h3>
+<!--
+				<h4>Cubano</h4>
+					<p>ham, swiss, and roast pork with mustard and pickles on Cuban bread</p>
+					<p>$6.00</p>
+-->
+
+				<h4>Media Noche</h4>
+					<p>ham, swiss, and roast pork with mustard and pickles on sweet roll</p>
+					<p>$6.00</p>
+				<h4>Croqueta Preparada</h4>
+					<p>Cuban sandwich with ham croquettes inside</p>
+					<p>$7.00</p>
+
+				<h4>Frita</h4>
+					<p>chorizo-infused hamburger, diced onions, and shoestring potatoes on a warm Cuban-bread bun</p>
+					<p>$7.00</p>
+	</div>
+
+
+	</div>
+
+
+
+<div id="social-feed" class="clearfix">
+		<div class="social twitter">
+			<i class="fa fa-twitter"></i>
+			<h4>breakfast of campeones #pastelito #cafecito #laventanita</h4>
+				<h5>@eddiespaghetti</h5>
+		</div>
+
+		<div class="social instagram">
+			<i class="fa fa-instagram"></i>
+			<img class="middle" src="images/social_liz.jpg" alt="Girl going out to get coffee">
+			<h4>croqueta time @laventanita</h4>
+				<h5>@jessicat</h5>
+		</div>
+
+		<div class="social twitter">
+			<i class="fa fa-twitter"></i>
+			<h4>night owl brought to you by #laventanita's #cortadito</h4>
+				<h5>@carolinagasolina</h5>
+		</div>
+
+
+		<div class="social instagram">
+			<i class="fa fa-instagram"></i>
+			<img src="images/social_chris.jpg" alt="Smiley face">
+			<h4>this morning, with him, having caf&eacute; @laventanita</h4>
+				<h5>@lizcastle</h5>
+		</div>		
+
+
+<!-- 		<div class="social twitter">
+			<i class="fa fa-twitter"></i>
+			<h4>meet us at #laventanita in five for a #colada!</h4>
+				<h5>@thegoodhues</h5>
+		</div>	
+
+
+
+		<div class="social instagram">
+			<i class="fa fa-instagram"></i>
+			<img src="images/social_rya.jpg" alt="Smiley face">
+			<h4>you know how many pastelitos i can buy with this? @laventanita</h4>
+				<h5>@forevermatt</h5>
+		</div>	 -->
+
+		
+
+</div>
+
+<div id="about" class="clearfix">
+
+	<div id="about_me">
+
+	</div>
+
+</div>
+
+
+
+
+</body>
+
+
+<footer>
+	© La Ventanita
+</footer>
+
+</html>
+
