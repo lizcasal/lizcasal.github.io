@@ -277,7 +277,17 @@ background: url(images/laventanita_still.jpg) no-repeat;
 background-size: cover;
 }
 
-@media screen and (max-device-width: 800px) {
-html { background: url(images/laventanita_still.jpg) #000 no-repeat center center fixed; }
-#bgvid { display: none; }
+@media screen and (max-device-width: 1024px) {
+	body { 
+		background: url(images/laventanita_still.jpg) #000 no-repeat center center fixed; 
+		}
+	#bgvid { 
+		display: none; 
+		}
+	li {
+	display: block;	
+	text-align: center;
+	padding-right: 0em;
+}
+
 }
