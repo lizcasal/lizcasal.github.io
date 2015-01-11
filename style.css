@@ -1,5 +1,6 @@
 body {
 	font-size: 16px;
+	background-color: #25323f;
 }
 
 h1 {
@@ -115,17 +116,21 @@ a {
 #location-info {
 	display: block;
 	float: left;
-	width: 46%;
-	padding: 1em;
-	margin: 7% 1% 1% 1%;
+	width: 44%;
+	padding: 2%;
+	margin: 14% 1% 1% 1%;
 }
 
-#map-canvas {
+#map img {
+	display: block;
 	float: left;
-    width: 46%;
-    height: 25em;
-    background-color: #CCC;
-	margin: 1%;
+	width: 48%;
+	height: 48%;
+	margin: 1% 1% 1% 1%;
+}
+
+#location a {
+	color: #ef4e45;
 }
 
 #location h2 {
@@ -136,7 +141,6 @@ a {
 	padding: 1em 0 .5em 0;
 	color: #ef4e45;
 }
-
 
 #menu {
 	width: auto;
@@ -180,17 +184,13 @@ a {
 	margin: 1% 1% 1% 1%
 }
 
-
-
 .social {
 	display: block;
 	float: left;
-	padding: 1em;
-	margin: 1em;
+	width:auto;
 	height: auto;
 	text-align: center; 
 }
-
 
 img, i, h3, h4, h5, .social {
 	display: block;
@@ -279,15 +279,81 @@ background-size: cover;
 
 @media screen and (max-device-width: 1024px) {
 	body { 
-		background: url(images/laventanita_still.jpg) #000 no-repeat center center fixed; 
+		background: url(images/laventanita_still.jpg) no-repeat center center fixed;
+		background-size: cover;
 		}
+	
 	#bgvid { 
 		display: none; 
 		}
-	li {
-	display: block;	
-	text-align: center;
-	padding-right: 0em;
-}
+
+	#logo {
+		width: 98%;
+		position: center;
+		text-align: center;
+		vertical-align: center;
+		margin: 0 auto;
+		}
+	
+	nav {
+		display: none;
+		}
+
+
+	#location-info {
+		display: block;
+		float: none;
+		width: 100%;
+		margin: 2%;
+		}
+
+	#map img {
+		float: none;
+		width: 98%;
+		margin: 2%;
+		padding: 1%;
+		display: block;
+		}
+
+	#drinks {
+		display: block;
+		background-color: #b1bfce;
+		float: none;
+		width: 98%;
+		padding: 2%;
+		margin: 2%;
+		}
+
+	#food {
+		display: block;
+		background-color: #ef4e45;
+		float: none;
+		width: 98%;
+		padding: 2%;
+		margin: 2%;
+		}
+
+	#social_feed {
+		float: left;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		}
+
+	.social.twitter {
+		display: block;
+		background-color: #b1bfce;
+		width: 42%;
+		padding: 2%;
+		margin: 2%;
+		}
+	
+	.social.instagram {
+		display: block;
+		background-color: #ef4e45;
+		width: 42%;
+		padding: 2%;
+		margin: 2%;
+		}	
 
 }
