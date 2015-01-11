@@ -277,7 +277,8 @@ background: url(images/laventanita_still.jpg) no-repeat;
 background-size: cover;
 }
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-device-width: 500px) {
+
 	body { 
 		background: url(images/laventanita_still.jpg) no-repeat center center fixed;
 		background-size: cover;
