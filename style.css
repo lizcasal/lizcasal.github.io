@@ -344,10 +344,14 @@ background-size: cover;
 		float: none;
 		padding: 2%;
 		width: 94%;
-		}
+	}
 
 
-
+	menu {
+		width: 96%;
+		padding: 0%;
+		margin: 2%;
+	}
 
 
 	#drinks {
