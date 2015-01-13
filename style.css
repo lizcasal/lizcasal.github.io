@@ -289,7 +289,7 @@ background-size: cover;
 
 	body { 
 		background: url(images/laventanita_pattern.jpg) no-repeat center center fixed;
-		background-size: 100%;
+		background-size: 100% 100%;
 		font-size: 12px;
 		}
 
