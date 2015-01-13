@@ -109,8 +109,6 @@ a {
 
 #location {
 	text-align: center; 
-	width: auto;
-	height: auto;
 }
 
 #location-info {
@@ -282,6 +280,7 @@ background-size: cover;
 	body { 
 		background: url(images/laventanita_still.jpg) no-repeat center center fixed;
 		background-size: cover;
+		font-size: 12px;
 		}
 
 
@@ -296,19 +295,27 @@ background-size: cover;
 		vertical-align: center;
 		margin: 0 auto;
 		}
+
+	#logo img {
+		width: 100%;
+	}
 	
 	nav {
 		display: none;
 		}
 
 	#location {
-		width: 100%;
+		width: 96%;
+		padding: 2%;
+		margin: 2%;
+		background-color: #b1bfce;
 		}
 
-#location-info {
-	float: none;
-	width: 100%;
-}
+	#location-info {
+		float: none;
+		width: 92%;
+		margin: 4%;
+		}
 
  /*
 	#location-info {
@@ -322,17 +329,18 @@ background-size: cover;
 	#map img {
 		float: none;
 		width: 98%;
-		margin: 2%;
-		padding: 1%;
-		display: block;
 		}
+
+
+
+
 
 	#drinks {
 		display: block;
 		background-color: #b1bfce;
 		float: none;
-		width: 98%;
-		padding: 2%;
+		width: 92%;
+		padding: 4%;
 		margin: 2%;
 		}
 
@@ -340,8 +348,8 @@ background-size: cover;
 		display: block;
 		background-color: #ef4e45;
 		float: none;
-		width: 98%;
-		padding: 2%;
+		width: 92%;
+		padding: 4%;
 		margin: 2%;
 		}
 
@@ -355,7 +363,7 @@ background-size: cover;
 	.social.twitter {
 		display: block;
 		background-color: #b1bfce;
-		width: 42%;
+		width: 96%;
 		padding: 2%;
 		margin: 2%;
 		}
@@ -363,7 +371,7 @@ background-size: cover;
 	.social.instagram {
 		display: block;
 		background-color: #ef4e45;
-		width: 42%;
+		width: 96%;
 		padding: 2%;
 		margin: 2%;
 		}	
