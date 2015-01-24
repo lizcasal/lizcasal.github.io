@@ -75,18 +75,34 @@ img {
     margin-right: auto
 }
 
-nav {
-	background: #25323f;
-	width: auto;
-	margin: 1% 1% 2% 1%;
-	text-align: center;
-}
-
 nav ul {
     list-style: none;               
     display: inline-block;     
     vertical-align: top;       
 }
+
+
+nav {
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1em;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	background-color: #25323f;
+	width: auto;
+	margin: 1% 1% 1% 1%;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
 
 
 li {
@@ -95,6 +111,7 @@ li {
 	padding-right: 3em;
 }
 
+/*
 a {
     display: inline-block;
     font-family: 'Josefin Sans', sans-serif;
@@ -106,6 +123,7 @@ a {
 	text-align: center;
 	padding: 1em;
 }
+*/
 
 #location {
 	text-align: center; 
@@ -113,22 +131,23 @@ a {
 
 #location-info {
 	display: block;
-	float: left;
+	background-color: #ef4e45;
+	float:left;
 	width: 44%;
 	padding: 2%;
-	margin: 14% 1% 1% 1%;
+	margin: 1% 1% 1% 1%
 }
 
 #map img {
 	display: block;
 	float: left;
 	width: 48%;
-	height: 48%;
 	margin: 1% 1% 1% 1%;
 }
 
 #location a {
-	color: #ef4e45;
+	color: #a7413f;
+	text-decoration: none;
 }
 
 #location h2 {
@@ -136,9 +155,14 @@ a {
 }
 
 #location h3 {
-	padding: 1em 0 .5em 0;
-	color: #ef4e45;
+	color: #25323f;
 }
+
+#location h4 {
+	margin: 0%;
+	padding: 0%;
+}
+
 
 #menu {
 	width: auto;
@@ -157,14 +181,15 @@ a {
 
 #drinks h3 {
 	color: #738ba4;
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
 #food h3 {
 	color: #a7413f;
-	padding-top: 2em;
+	padding-top: 1em;
 }
 
+/*
 #drinks h4 {
 	padding-top: .5em;
 }
@@ -172,6 +197,7 @@ a {
 #food h4 {
 	padding-top: .5em;
 }
+*/
 
 #food {
 	display: block;
@@ -190,7 +216,7 @@ a {
 	text-align: center; 
 }
 
-img, i, h3, h4, h5, .social {
+.social img, i, h3, h4, h5 {
 	display: block;
 	margin-top: 1%;
 	margin-bottom: 1%;
@@ -247,9 +273,30 @@ img, i, h3, h4, h5, .social {
 }
 
 #about {
-	float: none;
-	padding: 2em;
-	margin: 2em;
+	float: left;
+	text-align: center; 
+	margin-bottom: 10%
+}
+
+#truck img {
+	display: block;
+	float: left;
+	width: 48%;
+	margin: 1% 1% 1% 1%;
+}
+
+#truck-info {
+	display: block;
+	background-color: #ef4e45;
+	float: left;
+	width: 44%;
+	padding: 2%;
+	margin: 1% 1% 1% 1%
+}
+
+#truck-info h4 {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 footer {
@@ -260,6 +307,11 @@ footer {
 	line-height: 1em;
 	color: white;
 	margin: 4%;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
 }
 
 
@@ -285,7 +337,7 @@ background: url(images/laventanita_still.jpg) no-repeat;
 background-size: cover;
 }
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-device-width: 768px) {
 
 	body { 
 		background: url(images/laventanita_pattern.jpg) no-repeat center center fixed;
@@ -325,8 +377,28 @@ background-size: cover;
 		float: none;
 		width: 92%;
 		margin: 2%;
+		background-color: #b1bfce;
 		}
 
+
+	#about {
+		width: 96%;
+		padding: 0%;
+		margin: 2%;
+		background-color: #ef4e45;
+		}
+
+	#truck-info {
+		float: none;
+		width: 92%;
+		margin: 2%;
+		}
+
+	#truck img {
+		float: none;
+		padding: 2%;
+		width: 94%;
+	}
  /*
 	#location-info {
 		display: block;
@@ -403,5 +475,8 @@ background-size: cover;
 		padding: 2%;
 		margin: 2%;
 		}	
+
+
+
 
 }
