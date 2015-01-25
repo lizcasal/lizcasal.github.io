@@ -8,40 +8,18 @@
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,400italic,700italic|Ovo' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
-	<meta name="viewport" content="width=device-width">
-
-	<!-- 
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-  var myLatlng = new google.maps.LatLng(40.703074, -73.987646);
-  var mapOptions = {
-    zoom: 18,
-    center: myLatlng
-  }
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'La Ventanita'
-  });
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
--->
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <section id="logo">
+
 	<img id="header-logo" src="images/laventanita_logo_color.png" title ="La Ventanita" alt="La Ventanita word mark">
-	<h4>A Cuban Caf&eacute; on wheels. A tu orden.</h4>
+	<h4>A Cuban caf&eacute; on wheels. A tu orden.</h4>
 	<a href="#location"><i class="fa fa-hand-o-down"></i></a>
 </section>
 
 <nav class="clearfix">
+	
 	<ul>
 		<li><a href="#location">Location</a></li>
 		<li><a href="#menu">Menu</a></li>
@@ -50,27 +28,29 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	</ul>
 </nav>
 
-<video muted autoplay loop poster="images/laventanita_still.jpg" id="bgvid">
-<source src="images/laventanita.mp4" type="video/mp4">
+<video muted autoplay loop poster="images/laventanita_pattern.jpg" id="bgvid">
+<source src="images/laventanita_video.mp4" type="video/mp4">
 </video>
 
 <body>
 
 <section id="location" class="clearfix">
+	
+	<a href="https://www.google.com/maps/dir/Current+Location/40.702972,-73.987715">
 	<div id="location-info">
-		<a href="https://www.google.com/maps/dir/Current+Location/40.702972,-73.987715"><h2>DUMBO, Brooklyn</h2>
-			<h3>At Water and Pearl</a></h3>
-			<h4>8 am to 6 pm</h4></a>
+		<h2>DUMBO, Brooklyn</h2>
+			<h3>At Water and Pearl</h3>
+			<h3>8 am to 6 pm</h3>
+			<h4>Get directions<br><i class="fa fa-map-marker"></i></h4>	
 	</div>
+	</a>
 
+	<a href="https://www.google.com/maps/dir/Current+Location/40.702972,-73.987715">
 	<div id="map">
 		<img src="images/laventanita_map.png" title="DUMBO map" alt="Map of DUMBO, Brooklyn">
 	</div>
-
+	</a>
 </section>
-
-
-
 
 <section id="menu" class="clearfix">
 
@@ -78,7 +58,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 		<h2>Bebidas</h2>
 			<h3>Caf&eacute;</h3>
 				<h4>Cafecito</h4> 
-					<p>shot of espresso with espumita</p>		
+					<p>shot of espresso with espumita</p>
 					<p>$1.00</p>
 				<h4>Colada</h4>
 					<p>five shots of espresso to share</p>
@@ -102,9 +82,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				<h4>Batido de Trigo</h4>
 					<p>puffed wheat shake</p>
 					<p>$4.00</p>
-		</div>
+			<a href="#drinks"><i class="fa fa-coffee"></i></a>
+	</div>
 
-		<div id="food" class="clearfix">
+	<div id="food" class="clearfix">
 		<h2>Comida</h2>
 			<h3>Empanadas</h3>
 				<h4>Pollo, Carne, Guayaba y Queso</h4>
@@ -125,17 +106,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				<h4>Platanos</h4>
 					<p>Green (tostones) or sweet (maduros)</p>
 					<p>$3.00</p>
-<!--
+				<!--
 				<h4>Arroz y Frijoles</h4>
 					<p>White rice and black beans</p>
 					<p>$3.00</p>
 					-->
 			<h3>Sandwiches</h3>
-<!--
+				<!--
 				<h4>Cubano</h4>
 					<p>ham, swiss, and roast pork with mustard and pickles on Cuban bread</p>
 					<p>$6.00</p>
--->
+				-->
 
 				<h4>Media Noche</h4>
 					<p>ham, swiss, and roast pork with mustard and pickles on sweet roll</p>
@@ -143,61 +124,54 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				<h4>Croqueta Preparada</h4>
 					<p>Cuban sandwich with ham croquettes inside</p>
 					<p>$7.00</p>
-
 				<h4>Frita</h4>
 					<p>chorizo-infused hamburger, diced onions, and shoestring potatoes on a warm Cuban-bread bun</p>
 					<p>$7.00</p>
+			<a href="#food"><i class="fa fa-cutlery"></i></a>
 	</div>
 </section>
 
-
-
 <section id="social-feed" class="clearfix">
-		<div class="social twitter">
-			<i class="fa fa-twitter"></i>
-			<h4>breakfast of campeones #pastelito #cafecito #laventanita</h4>
-				<h5>@eddiespaghetti</h5>
-		</div>
+	<div class="social twitter">
+		<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+			<a href="https://twitter.com/"><h4>breakfast of campeones #pastelito #cafecito #laventanita</h4>
+				<h5>@eddiespaghetti</h5></a>
+	</div>
 
-		<div class="social instagram">
-			<i class="fa fa-instagram"></i>
-			<img class="middle" src="images/social_liz.jpg" alt="Girl going out to get coffee">
+	<div class="social instagram">
+		<a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+			<a href="http://instagram.com/"><img class="middle" src="images/social_liz.jpg" title= "Girl" alt="Girl going out to get coffee">
 			<h4>croqueta time @laventanita</h4>
-				<h5>@jessicat</h5>
-		</div>
+				<h5>@jessicat</h5></a>
+	</div>
 
-		<div class="social twitter">
-			<i class="fa fa-twitter"></i>
-			<h4>night owl brought to you by #laventanita's #cortadito</h4>
-				<h5>@carolinagasolina</h5>
-		</div>
+	<div class="social twitter">
+		<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+			<a href="https://twitter.com/"><h4>night owl brought to you by #laventanita's #cortadito</h4>
+				<h5>@carolinagasolina</h5></a>
+	</div>
 
-
-		<div class="social instagram">
-			<i class="fa fa-instagram"></i>
-			<img src="images/social_chris.jpg" alt="Smiley face">
+	<div class="social instagram">
+		<a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+			<a href="http://instagram.com/"><img src="images/social_chris.jpg" title= "Man" alt="Image of man drinking coffee">
 			<h4>this morning, with him, having caf&eacute; @laventanita</h4>
-				<h5>@lizcastle</h5>
-		</div>		
+				<h5>@lizcastle</h5></a>
+	</div>
 
 
-<!-- 		<div class="social twitter">
+	<!-- EXTRA EXAMPLES
+		<div class="social twitter">
 			<i class="fa fa-twitter"></i>
 			<h4>meet us at #laventanita in five for a #colada!</h4>
 				<h5>@thegoodhues</h5>
 		</div>	
-
-
-
 		<div class="social instagram">
 			<i class="fa fa-instagram"></i>
 			<img src="images/social_rya.jpg" alt="Smiley face">
 			<h4>you know how many pastelitos i can buy with this? @laventanita</h4>
 				<h5>@forevermatt</h5>
-		</div>	 -->
-
-		
-
+		</div>	 
+	-->
 </section>
 
 <section id="about" class="clearfix">
@@ -208,26 +182,13 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 	<div id="truck-info" >
 		<h2>La Ventanita is a Cuban bakery-style food truck.</h2>
-		<h4>It's a little window into the Cuban American tradition of tossing back thumbnail-size paper cups of caf&eacute; cubano over heated conversation until it's time to get back to work (or not).</h4>
+		<h4>It's a little window into the tradition of tossing back cups of caf&eacute; cubano over heated conversation until it's time to get back to work (or not).</h4>
 	</div>
-
-
-
 </section>
-
-
-
-</section>
-
-
-
 
 </body>
 
-
-<footer>
-	&copy; La Ventanita | by <a href="http://www.lizcasal.com">Liz Casal</a>
-</footer>
+<footer>&copy; La Ventanita | by <a href="http://www.lizcasal.com">Liz Casal</a></footer>
 
 </html>
 

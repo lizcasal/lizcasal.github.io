@@ -69,6 +69,26 @@ p {
 	color: #ef4e45;
 }
 
+/* unvisited link */
+#logo i:link {
+    color: #ef4e45;
+}
+
+/* visited link */
+#logo i:visited {
+    color: #ef4e45;
+}
+
+/* mouse over link */
+#logo i:hover {
+    color: white;
+}
+
+/* selected link */
+#logo i:active {
+    color: #ef4e45;
+}
+
 img {
 	display: block;
     margin-left: auto;
@@ -80,7 +100,6 @@ nav ul {
     display: inline-block;     
     vertical-align: top;       
 }
-
 
 nav {
     display: block;
@@ -100,10 +119,27 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color: white;
 }
 
+/* unvisited link */
+nav a:link {
+    color: white;
+}
 
+/* visited link */
+nav a:visited {
+    color: white;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #ef4e45;
+}
+
+/* selected link */
+nav a:active {
+    color: white;
+}
 
 li {
 	display: inline;	
@@ -111,19 +147,9 @@ li {
 	padding-right: 3em;
 }
 
-/*
 a {
-    display: inline-block;
-    font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.5em;
-	font-weight: 700;
-	line-height: 1em;
 	text-decoration: none;
-	color: white;
-	text-align: center;
-	padding: 1em;
 }
-*/
 
 #location {
 	text-align: center; 
@@ -131,18 +157,11 @@ a {
 
 #location-info {
 	display: block;
-	background-color: #ef4e45;
+	background-color: #b1bfce;
 	float:left;
 	width: 44%;
 	padding: 2%;
 	margin: 1% 1% 1% 1%
-}
-
-#map img {
-	display: block;
-	float: left;
-	width: 48%;
-	margin: 1% 1% 1% 1%;
 }
 
 #location a {
@@ -152,17 +171,102 @@ a {
 
 #location h2 {
 	color: #25323f;
+	margin-bottom: 5%;
 }
 
 #location h3 {
-	color: #25323f;
+	color: #738ba4;
 }
 
 #location h4 {
-	margin: 0%;
+	margin: 5% 0 0 0;
 	padding: 0%;
+	color: white;
 }
 
+.fa-map-marker {
+	font-size: 1.5em;
+	color: #a7413f;
+}
+
+/* unvisited link */
+#location-info i:link {
+	color: #a7413f;
+}
+
+/* visited link */
+#location-info i:visited {
+	color: #a7413f;
+}
+
+/* mouse over link */
+#location-info i:hover {
+    color: white;
+}
+
+/* selected link */
+#location-info i:active {
+	color: #a7413f;
+}
+
+#map img {
+	display: block;
+	float: left;
+	width: 48%;
+	margin: 1% 1% 1% 1%;
+}
+
+.fa-coffee {
+	font-size: 1.5em;
+	color: #738ba4;
+	margin-top: 5%;
+}
+
+/* unvisited link */
+#drinks i:link {
+    color: #738ba4;
+}
+
+/* visited link */
+#drinks i:visited {
+    color: #738ba4;
+}
+
+/* mouse over link */
+#drinks i:hover {
+    color: white;
+}
+
+/* selected link */
+#drinks i:active {
+    color: #738ba4;
+}
+
+.fa-cutlery {
+	font-size: 1.5em;
+	color: #a7413f;
+	margin-top: 5%;
+}
+
+/* unvisited link */
+#food i:link {
+    color: #a7413f;
+}
+
+/* visited link */
+#food i:visited {
+    color: #a7413f;
+}
+
+/* mouse over link */
+#food i:hover {
+    color: white;
+}
+
+/* selected link */
+#food i:active {
+    color: #a7413f;
+}
 
 #menu {
 	width: auto;
@@ -184,21 +288,6 @@ a {
 	padding-top: 1em;
 }
 
-#food h3 {
-	color: #a7413f;
-	padding-top: 1em;
-}
-
-/*
-#drinks h4 {
-	padding-top: .5em;
-}
-
-#food h4 {
-	padding-top: .5em;
-}
-*/
-
 #food {
 	display: block;
 	background-color: #ef4e45;
@@ -206,6 +295,11 @@ a {
 	width: 44%;
 	padding: 2%;
 	margin: 1% 1% 1% 1%
+}
+
+#food h3 {
+	color: #a7413f;
+	padding-top: 1em;
 }
 
 .social {
@@ -255,12 +349,10 @@ a {
 	margin: 1%;
 }
 
-
 .social.instagram img {
 	margin: auto;
 	width: 75%;
 }
-
 
 .fa-instagram {
 	font-size: 1.5em;
@@ -270,6 +362,46 @@ a {
 .fa-twitter {
 	font-size: 1.5em;
 	color: #738ba4;
+}
+
+/* unvisited link */
+.social.twitter  i:link {
+    color: #738ba4;
+}
+
+/* visited link */
+.social.twitter  i:visited {
+    color: #738ba4;
+}
+
+/* mouse over link */
+.social.twitter  i:hover {
+    color: white;
+}
+
+/* selected link */
+.social.twitter  i:active {
+    color: #738ba4;
+}
+
+/* unvisited link */
+.social.instagram i:link {
+    color: #a7413f;
+}
+
+/* visited link */
+.social.instagram i:visited {
+    color: #a7413f;
+}
+
+/* mouse over link */
+.social.instagram i:hover {
+    color: white;
+}
+
+/* selected link */
+.social.instagram i:active {
+    color: #a7413f;
 }
 
 #about {
@@ -294,6 +426,10 @@ a {
 	margin: 1% 1% 1% 1%
 }
 
+#truck-info h2 {
+	margin-bottom: 5%;
+}
+
 #truck-info h4 {
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -314,6 +450,25 @@ footer a{
 	color: white;
 }
 
+/* unvisited link */
+footer a:link {
+    color: white;
+}
+
+/* visited link */
+footer a:visited {
+    color: white;
+}
+
+/* mouse over link */
+footer a:hover {
+    color: #ef4e45;
+}
+
+/* selected link */
+footer a:active {
+    color: white;
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -333,22 +488,22 @@ video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -100;
-background: url(images/laventanita_still.jpg) no-repeat;
+background: url(images/laventanita_pattern.jpg) no-repeat;
 background-size: cover;
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
 
 	body { 
 		background: url(images/laventanita_pattern.jpg) no-repeat center center fixed;
 		background-size: cover;
 		font-size: 12px;
-		}
+	}
 
 
 	#bgvid { 
 		display: none; 
-		}
+	}
 
 	#logo {
 		width: 98%;
@@ -356,7 +511,7 @@ background-size: cover;
 		text-align: center;
 		vertical-align: center;
 		margin: 0 auto;
-		}
+	}
 
 	#logo img {
 		width: 100%;
@@ -364,21 +519,21 @@ background-size: cover;
 	
 	nav {
 		display: none;
-		}
+	}
 
 	#location {
 		width: 96%;
 		padding: 0%;
 		margin: 2%;
 		background-color: #b1bfce;
-		}
+	}
 
 	#location-info {
 		float: none;
 		width: 92%;
 		margin: 2%;
 		background-color: #b1bfce;
-		}
+	}
 
 
 	#about {
@@ -386,27 +541,28 @@ background-size: cover;
 		padding: 0%;
 		margin: 2%;
 		background-color: #ef4e45;
-		}
+	}
 
 	#truck-info {
 		float: none;
 		width: 92%;
 		margin: 2%;
-		}
+	}
 
 	#truck img {
 		float: none;
 		padding: 2%;
 		width: 94%;
 	}
- /*
+
+ 	/*
 	#location-info {
 		display: block;
 		float: none;
 		width: 96%;
 		margin: 2%;
-		}
-*/
+	}
+	*/
 
 	a {
 		padding: .5em;
@@ -418,13 +574,9 @@ background-size: cover;
 		width: 94%;
 	}
 
-
-	menu {
-		width: 96%;
-		padding: 0%;
-		margin: 2%;
+	#menu p {
+		display: none;
 	}
-
 
 	#drinks {
 		display: block;
@@ -433,7 +585,7 @@ background-size: cover;
 		width: 88%;
 		padding: 4%;
 		margin: 2%;
-		}
+	}
 
 	#food {
 		display: block;
@@ -442,15 +594,15 @@ background-size: cover;
 		width: 88%;
 		padding: 4%;
 		margin: 2%;
-		}
+	}
 
 	#food h3 {
 		padding-top: 1em;
-		}
+	}
 
 	#drinks h3 {
 		padding-top: 1em;
-		}
+	}
 
 
 	#social_feed {
@@ -458,7 +610,7 @@ background-size: cover;
 		width: 100%;
 		height: auto;
 		text-align: center;
-		}
+	}
 
 	.social.twitter {
 		display: block;
@@ -466,7 +618,7 @@ background-size: cover;
 		width: 92%;
 		padding: 2%;
 		margin: 2%;
-		}
+	}
 	
 	.social.instagram {
 		display: block;
@@ -474,9 +626,10 @@ background-size: cover;
 		width: 92%;
 		padding: 2%;
 		margin: 2%;
-		}	
+	}	
 
-
-
+	#about {
+		margin-bottom: 20%;
+	}
 
 }
